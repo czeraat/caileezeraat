@@ -545,6 +545,12 @@ input::-ms-input-placeholder {
     max-width: 80%;
 	margin-top: -10px
 }
+
+@media (max-width: 479px) {
+	.navbar-brand>img {
+		position: fixed;
+		width: 60%;
+	}
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
     color:#ffe1bd;
