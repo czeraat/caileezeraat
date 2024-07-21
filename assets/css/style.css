@@ -155,12 +155,13 @@ h1 {
     font-size: 3.75rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
+	margin-bottom: 40px;
 }
 h2 {
     font-size:3rem;
     line-height: 3rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 650;
 }
 h3 {
     font-size:1.875rem;
@@ -229,6 +230,7 @@ Section
 .sections.footer {
     padding-bottom: 80px;
 }
+
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
@@ -546,11 +548,13 @@ input::-ms-input-placeholder {
 	margin-top: -10px
 }
 
+
 @media (max-width: 479px) {
 	.navbar-brand>img {
 		position: fixed;
 		width: 60%;
 	}
+
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color:transparent;
     color:#ffe1bd;
@@ -799,13 +803,15 @@ service section css
 ====================================================================*/
 .footer{
     border-top:1px solid #d8d8d8;
+
 }
 .copyright_text p{
     color:#aaa79e;
-    font-size:0.8125rem;
-    /*    line-height: 25px;*/
+    font-size:0.5rem;
     padding: 40px 20px;
     max-width: 100%;
+	padding: 100px;
+
 }
 .copyright_text p i{
     padding:0px 10px;
