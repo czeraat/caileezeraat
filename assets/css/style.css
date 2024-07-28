@@ -552,7 +552,7 @@ input::-ms-input-placeholder {
 @media (max-width: 479px) {
 	.navbar-brand>img {
 		position: fixed;
-		width: 60%;
+		width: 55%;
 	}
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
